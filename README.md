@@ -2,7 +2,7 @@
 
 A simple and interactive todo list application built with HTML, CSS, and JavaScript.
 
-🚀 **Live Demo:** [Click here to view the web-page] (https://dev-mohit-tanwar.github.io/Project--Todo-list/)
+🚀 **Live Demo:** [Click here to view the web-page](https://dev-mohit-tanwar.github.io/Project--Todo-list/)
 
 ## Description
 
