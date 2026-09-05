@@ -2,6 +2,8 @@
 
 A simple and interactive todo list application built with HTML, CSS, and JavaScript.
 
+🚀 **Live Demo:** [Click here to view the web-page] (https://dev-mohit-tanwar.github.io/Project--Todo-list/)
+
 ## Description
 
 This project is a task management application that allows users to create, manage, and track their daily tasks. With a clean and user-friendly interface, you can easily add new tasks, mark them as complete, and remove them from your list.
@@ -22,4 +24,4 @@ This project is a task management application that allows users to create, manag
 
 ## Getting Started
 
-Simply open the application in your web browser to start managing your tasks. No installation or setup required.
+You can test the application directly using the [Live Demo link](https://dev-mohit-tanwar.github.io/Project--Todo-list/) above, or simply clone this repository and open `index.html` in your web browser.
