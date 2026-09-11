@@ -2,6 +2,8 @@
 
 A simple, responsive todo list application built with HTML, CSS, and JavaScript.
 
+🚀 **Live Demo:** [Click here to view the web-page](https://dev-mohit-tanwar.github.io/Project--Todo-list/)
+
 ## Description
 
 This project lets users create, complete, and delete daily tasks. Tasks are saved in the browser using `localStorage`, so they remain available when the page is reopened in the same browser.
@@ -57,3 +59,5 @@ The project uses relative paths so the complete folder can be moved without chan
 - `css/stylesheet.css` loads the checked and unchecked icons from `../assets/images/`.
 
 Keep the folder structure unchanged when moving or sharing the project.
+
+You can test the application directly using the [Live Demo link](https://dev-mohit-tanwar.github.io/Project--Todo-list/) above, or simply clone this repository and open `index.html` in your web browser.
