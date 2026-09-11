@@ -3,27 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.png">
     <title>To-Do List</title>
 </head>
 <body>  
-    <div class="container">
-        <div class="todo-app">
-            <h2>To- do List <img src="images/icon.png" ></h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Add a new task...">
-                <button onclick="addTask()">Add</button>
-            </div>
-            <ul id="list-container">`
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> --> 
-            </ul>
-            
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <main class="container">
+        <section class="todo-app" aria-labelledby="page-title">
+            <h1 id="page-title">Todo List <img src="assets/images/icon.png" alt=""></h1>
+            <form class="row" id="task-form">
+                <label class="sr-only" for="input-box">New task</label>
+                <input type="text" id="input-box" placeholder="Add a new task..." autocomplete="off" required>
+                <button type="submit">Add task</button>
+            </form>
+            <p class="empty-state" id="empty-state">Your task list is empty.</p>
+            <ul id="list-container" aria-live="polite"></ul>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
     
 </body>
 </html>
